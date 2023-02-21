@@ -4,3 +4,31 @@
   display: table;
 }
 
+.status,
+.restart {
+  margin-top: 0.5rem;
+}
+
+.restart {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+}
+
+.restart:active {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.restart:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.restart:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 50%);
+}
