@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-
 import Square from "../square/square";
+
+import "./board.css";
 
 // Create method to determine winner (if any)
 function calculateWinner(squares) {
