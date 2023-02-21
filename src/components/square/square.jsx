@@ -1,3 +1,5 @@
+import "./square.css";
+
 function Square({ onClick, value }) {
   return (
     <button className="square" onClick={onClick}>
