@@ -9,3 +9,7 @@
   text-align: center;
   width: 80px;
 }
+
+button:hover {
+  cursor: pointer;
+}
